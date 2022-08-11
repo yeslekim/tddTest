@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MembershipServiceTest" project="tddTest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.tddTest.app.membership.service.MembershipServiceTest" time="0.434" displayname="MembershipServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.service.MembershipServiceTest]">
-    <testcase name="멤버십등록실패_이미존재함" classname="com.example.tddTest.app.membership.service.MembershipServiceTest" time="0.434" displayname="멤버십등록실패_이미존재함()" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.service.MembershipServiceTest]/[method:멤버십등록실패_이미존재함()]"/>
-  </testsuite>
-</testrun>

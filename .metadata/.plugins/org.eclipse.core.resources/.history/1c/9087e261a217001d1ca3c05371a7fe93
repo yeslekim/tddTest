@@ -1,9 +1,0 @@
-package com.example.tddTest.app.membership.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.example.tddTest.app.membership.entity.Membership;
-
-public class MembershipRepository implements JpaRepository<Membership, Long>{
-
-}

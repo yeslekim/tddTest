@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MembershipControllerTest" project="tddTest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.tddTest.app.membership.controller.MembershipControllerTest" time="3.156" displayname="MembershipControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.controller.MembershipControllerTest]">
-    <testcase name="멤버십등록실패_사용자식별값이헤더에없음" classname="com.example.tddTest.app.membership.controller.MembershipControllerTest" time="3.156" displayname="멤버십등록실패_사용자식별값이헤더에없음()" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.controller.MembershipControllerTest]/[method:멤버십등록실패_사용자식별값이헤더에없음()]"/>
-  </testsuite>
-</testrun>

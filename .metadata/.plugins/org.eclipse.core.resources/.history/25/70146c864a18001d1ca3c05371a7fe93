@@ -1,5 +1,0 @@
-package com.example.tddTest.app.common;
-
-public class GlobalExceptionHandler {
-
-}

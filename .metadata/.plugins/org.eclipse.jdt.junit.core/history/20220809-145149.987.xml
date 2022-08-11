@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MembershipRepositoryTest (1)" project="tddTest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.tddTest.app.membership.repository.MembershipRepositoryTest" time="0.229" displayname="MembershipRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.repository.MembershipRepositoryTest]">
-    <testcase name="멤버십등록" classname="com.example.tddTest.app.membership.repository.MembershipRepositoryTest" time="0.229" displayname="멤버십등록()" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.repository.MembershipRepositoryTest]/[method:멤버십등록()]"/>
-  </testsuite>
-</testrun>

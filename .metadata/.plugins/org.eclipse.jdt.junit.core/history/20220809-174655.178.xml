@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MembershipControllerTest" project="tddTest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.tddTest.app.membership.controller.MembershipControllerTest" time="0.763" displayname="MembershipControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.controller.MembershipControllerTest]">
-    <testcase name="mockMvc가Null이아님" classname="com.example.tddTest.app.membership.controller.MembershipControllerTest" time="0.763" displayname="mockMvc가Null이아님()" uniqueid="[engine:junit-jupiter]/[class:com.example.tddTest.app.membership.controller.MembershipControllerTest]/[method:mockMvc가Null이아님()]"/>
-  </testsuite>
-</testrun>

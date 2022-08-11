@@ -1,0 +1,5 @@
+package com.example.tddTest.app.enums;
+
+public enum MembershipType {
+
+}

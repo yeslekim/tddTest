@@ -1,0 +1,5 @@
+package com.example.tddTest.exception;
+
+public class MembershipException {
+
+}

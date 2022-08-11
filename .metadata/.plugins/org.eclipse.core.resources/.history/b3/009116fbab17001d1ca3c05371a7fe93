@@ -1,0 +1,14 @@
+package com.example.tddTest.app.membership.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.tddTest.app.enums.MembershipType;
+import com.example.tddTest.app.membership.entity.Membership;
+
+@Service
+public class MembershipService {
+
+	public Membership addMembership(final String userId, final MembershipType membershipType, final Integer point) {
+		return null;
+	}
+}

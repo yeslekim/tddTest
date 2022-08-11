@@ -1,0 +1,5 @@
+package com.example.tddTest.app.membership.service;
+
+public class MembershipConstants {
+
+}

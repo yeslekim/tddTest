@@ -20,10 +20,22 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+
+/*
+ * @RestControllerAdvice란?
+ * @ExceptionHandler, @ModelAttribute, @InitBinder 가 적용된 메서드들을 
+ * AOP를 적용해 컨트롤러 단에 적용하기 위해 고안된 애너테이션
+ * 모든 컨트롤러에서 해당 Exception이 발생하였을 때 전역적으로 이를 잡고 처리
+ */
 @Slf4j
-@RestControllerAdvice	// @ExceptionHandler, @ModelAttribute, @InitBinder 가 적용된 메서드들을 AOP를 적용해 컨트롤러 단에 적용하기 위해 고안된 애너테이션
+@RestControllerAdvice	
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
+	/*
+	 * [ handleMethodArgumentNotValid ]
+	 * @Valid에서 예외가 발생할 경우에 처리하게 되는데, 발생한 에러들을 갖고 있는 MethodArgumentNotValidException에서 에러 메세지들을 얻어, 이를 메세지로 반환하도록 하고 있다.
+	 * 만약 에러가 발생할 경우 다음과 같은 포맷으로 에러 메세지가 반환되는 것이다
+	 */
 	@Override
 	protected ResponseEntity<Object> handleMethodArgumentNotValid(
 			MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {

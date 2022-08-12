@@ -219,6 +219,5 @@ public class MembershipControllerTest {
     			, Arguments.of(-1, MembershipType.NAVER)
     			, Arguments.of(1000, null)
     			);
-    	
     }
 }

@@ -40,7 +40,10 @@ public class MembershipServiceTest {
 				.findByUserIdAndMembershipType(userId, membershipType);
 		
 		// when
-		final MembershipException result = assertThrows(MembershipException.class, () -> target.addMembership(userId, membershipType, point));
+		final MembershipException result = assertThrows(
+				MembershipException.class, 
+				() -> target.addMembership(userId, membershipType, point)
+				);
 		
 		// then
 		assertThat(result.getErrorResult()).isEqualTo(MembershipErrorResult.DUPLICATED_MEMBERSHIP_REGISTER);
